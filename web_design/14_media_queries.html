@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        /* Global styles */
+        body {
+            margin: 0;
+        }
+
+        /* Mobile styles */
+        @media (max-width: 600px) {
+            h1{
+                background-color: rgb(196, 133, 181);   
+                color: rgb(205, 226, 14);     
+                font-size: 8px;        
+            }
+        }
+
+        /* Tablet styles */
+        @media (min-width: 601px) and (max-width: 1024px) {
+            h1{
+                background-color: yellow;   
+                color: black;     
+                font-size: 12px;        
+            }
+        }
+
+        /* Desktop styles */
+        @media (min-width: 1025px) {
+     
+            h1{
+                background-color: brown;   
+                color: white;             
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>HTML5 Media Queries</h1>
+    </div>
+</body>
+
+</html>

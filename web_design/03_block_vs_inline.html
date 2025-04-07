@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Inline vs Block Level Elements</title>
+    <style>
+        .container {
+            width: 500px;
+            margin: 0 auto;
+            border: 2px solid red;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            background-color: aqua;
+            border: 2px solid blue;
+        }
+
+        span {
+            background: yellow;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CSS Inline vs Block Level Elements</h1>
+
+        <p>
+            This is a basic block level element. The adjacent block level elements display on new lines below.
+        </p>
+        <p>
+            Inline elements <span>like this one</span> and <span>this one</span> sit on the same line as one another,
+            and adjacent text nodes, if there is space on the same line. Overflowing inline elements <span> wrap onto a new line if possible — 
+            like this one containing text</span>, or just go on to a new line if not, much like this image will do:
+            <img src="../images/nature.jpg" alt="nature image">
+        </p>
+    </div>
+
+</body>
+
+</html>
